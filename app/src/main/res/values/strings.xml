@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Olympia POS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="amount">Amount\n(Rs)</string>
+    <string name="rate">Rate\n(Rs)</string>
+    <string name="title_activity_container">Olympia</string>
+    <string name="permission">If you have rejected the permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]</string>
+    <string name="settings">Settings</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="search">Search</string>
+</resources>

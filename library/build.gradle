@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+android {
+   /* compileSdkVersion rootProject.ext.compileSdkVersion as Integer
+    buildToolsVersion rootProject.ext.buildToolsVersion as String*/
+    compileSdkVersion 27
+
+    defaultConfig {
+       /* minSdkVersion rootProject.ext.minSdkVersion as Integer
+        targetSdkVersion rootProject.ext.targetSdkVersion as Integer
+         versionCode rootProject.ext.versionCode as Integer
+        versionName rootProject.ext.versionName as String
+        */
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    implementation "com.android.support:recyclerview-v7:27.1.1"
+}
+
+//apply from: 'gradle-maven-push.gradle'
+
+/*afterEvaluate {
+    androidJavadocs.classpath += project.android.libraryVariants.toList().first().javaCompile.classpath
+}*/
